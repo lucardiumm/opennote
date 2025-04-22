@@ -14,13 +14,14 @@ export default function Page() {
 
     const PressGoogle = async () => {
         Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium)
+
         
     }
 
     const Press = async () => {
         Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium)
         
-
+        router.replace('/(main)/')
     }
 
     return (
